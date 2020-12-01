@@ -4,16 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
 
-    <!-- TODO: Add some Google Fonts -->
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="style.css">
-
-    <!-- TODO: Update '<title>'. -->
-    <title>Document</title>
+    <title>Twitter Box Functionality Demo</title>
   </head>
   <body>
+    <main>
+      <form>
+        <!-- TODO: Consider adding input/label for accessibility ♿. -->
+        <textarea placeholder="What's happening?"></textarea>
+        <div>
+          <span><span>0</span>&nbsp;/&nbsp;140</span>
+          <button disabled>Tweet</button>
+        </div>
+      </form>
+    </main>
     <!-- 'Connect' JS to this HTML file. -->
     <script src="./scripts.js"></script>
   </body>
