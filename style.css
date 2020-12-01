@@ -26,6 +26,10 @@ textarea {
   width: 550px;
 }
 
+textarea:focus {
+  outline: none;
+}
+
 ::placeholder {
   color: rgb(15, 20, 25);
 }
